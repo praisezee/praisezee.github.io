@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/enroll.css">
+        <script defer src="js/main.js"></script>
+        <script defer src="js/bootstrap.js"></script>
+        <title>JOSNIC INTERNATIONAL ACADEMY</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="nav-center container-fluid w-100">
+                <!-- nav header -->
+                    <div class="nav-header">
+                        <a href="/">
+                            <img src="img/logo.png" class="logo" alt="logo" style="width: 5rem; height: 5rem;"/>
+                        </a>
+                        <button class="nav-toggle">
+                            <img src="img/menu-button-wide.svg" alt="">
+                        </button>
+                    </div>
+                    <section class="d-lg-flex d-block d-none">
+                        <p class="h1 text-center text-danger" style="font-weight: 900; font-family: verdana, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">JOSNIC INTERNATIONAL ACADEMY</p>
+                    </section>
+                <!-- links -->
+                <ul class=" links">
+                    <li class="nav-item my-2">
+                        <a href="/">home</a>
+                    </li>
+                    <li class="nav-item my-2">
+                        <a href="/about.html">about</a>
+                    </li>
+                    <li class="nav-item my-2">
+                        <a href="/contact.html">contact</a>
+                    </li>
+                    <li class="nav-item my-2">
+                        <a href="/enroll.html">Enroll</a>
+                    </li>
+                    <li class="nav-item my-2">
+                        <a class="text-center btn-primary text-white btn" id="remain" href="payment.html">Online Payment</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="my-5">
+            <p class="h3 text-center text-primary shadow" style="font-weight: 900;">ENROLLMENT</p>
+            <p class="h5 text-danger text-center">Please note that you will have to answer some questions after filling your details</p>
+            <section class="my-4 hide m-auto">
+                <form action="https://formsubmit.co/folorunsopraise580@gmail.com"
+                method="POST"
+                enctype="multipart/form-data" class="form">
+                    <div class="row w-100 p-5">
+                        <div class="col-md-6 my-3 form-group">
+                            <label for="Surname"  class="form-label">Surname</label>
+                            <input class="form-control" type="text" name="Surname" id="surname" placeholder="Enter your Surname" autocomplete required/>
+                        </div>
+                        <div class="col-md-6 my-3 form-group">
+                            <label for="Firstname"  class="form-label">First Name</label>
+                            <input class="form-control" type="text" name="Firstname" id="Firstname" placeholder="Enter your First Name" required autocomplete/>
+                        </div>
+                        <div class="col-md-6 my-3 form-group">
+                            <label for="gender"  class="form-label">Gender</label>
+                            <input class="form-control" type="text" name="gender" id="gender" placeholder="Enter your gender" required autocomplete/>
+                        </div>
+                        <div class="col-md-6 my-3 form-group">
+                            <label for="age"  class="form-label">Age</label>
+                            <input class="form-control" type="number" name="age" id="age" placeholder="Enter your age" pattern="[0-9]{2}" min="03" max="13" required autocomplete/>
+                        </div>
+                        <div class="col-md-6 my-3 form-group">
+                            <label for="Religion"  class="form-label">Religion</label>
+                            <select name="Religion" class="form-select">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="1">Christianity</option>
+                                <option value="2">Islam</option>
+                                <option value="3">Pagan</option>
+                                <option value="4">Others</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 my-3 form-group">
+                            <label for="HomeTown"  class="form-label">Home Town</label>
+                            <input class="form-control" type="text" name="HomeTown" id="HomeTown" placeholder="Enter your Home town" required autocomplete/>
+                        </div>
+                        <div class="col-md-6 my-3 form-group">
+                            <label for="StateOfOrigin"  class="form-label">State of Origin</label>
+                            <input class="form-control" type="text" name="StateOfOrigin" id="StateOfOrigin" placeholder="Enter your State of origin" required autocomplete/>
+                        </div>
+                        <div class="col-md-6 my-3 form-group">
+                            <label for="Nationality"  class="form-label">Nationality</label>
+                            <input class="form-control" type="text" name="Nationality" id="Nationality" placeholder="Enter your Nationality" required autocomplete/>
+                        </div>
+                        <div class="col-md-6 my-3 form-group">
+                            <label for="Previousclass" class="form-label">Previous Class</label>
+                            <input type="text" class="form-control" name="class" id="Previousclass" placeholder="Enter your previous class e.g Primary 1" required autocomplete/>
+                        </div>
+                        <div class="col-md-6 my-3 form-group">
+                            <label for="Proposedclass" class="form-label">Proposed Class</label>
+                            <input type="text" class="form-control" name="Proposedclass" id="Proposedclass" placeholder="Enter your previous class e.g Primary 1" required autocomplete/>
+                        </div>
+                        <div class="col-md-6 my-3 form-group">
+                            <label for="BloodGroup"  class="form-label">Blood Group</label>
+                            <select name="BloodGroup" class="form-select">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="1">A+</option>
+                                <option value="2">A-</option>
+                                <option value="3">B+</option>
+                                <option value="4">B-</option>
+                                <option value="5">AB+</option>
+                                <option value="6">AB-</option>
+                                <option value="7">O+</option>
+                                <option value="8">O-</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 my-3 form-group">
+                            <label for="Genotype"  class="form-label">Genotype</label>
+                            <select name="Genotype" class="form-select">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="1">AA</option>
+                                <option value="2">AS</option>
+                                <option value="3">AC</option>
+                                <option value="4">SC</option>
+                                <option value="5">SS</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 my-3 form-group">
+                            <label for="HealthChalenges" class="form-label">Common Health challenge (if any specify)</label>
+                            <input type="text" class="form-control" name="HealthChalenges" id="HealthChalenges" placeholder="Enter your wards common health challenge(if none leave blank)"autocomplete/>
+                        </div>
+                        <div class="col-md-6 my-3 form-group">
+                            <label for="ParentName"  class="form-label">Parent's Name</label>
+                            <input class="form-control" type="text" name="ParentName" id="ParentName" placeholder="Enter your parent fullname" required autocomplete/>
+                        </div>
+                        <div class="col-md-6 my-3 form-group">
+                            <label for="Address"  class="form-label">Residential Address</label>
+                            <input class="form-control" type="text" name="Address" id="Address" placeholder="Enter your residential address" required autocomplete/>
+                        </div>
+                        <div class="col-md-6 my-3 form-group">
+                            <label for="occupation"  class="form-label">Parent's Occupation</label>
+                            <input class="form-control" type="text" name="occupation" id="occupation" placeholder="Enter your parent occupation" required autocomplete/>
+                        </div>
+                        <div class="col-md-6 my-3 form-group">
+                            <label for="occupationAddress"  class="form-label">Work Place Address</label>
+                            <input class="form-control" type="text" name="occupationAddress" id="occupationAddress" placeholder="Enter your parent occupation address" required autocomplete/>
+                        </div>
+                        <div class="col-md-6 my-3 form-group">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Enter a valid phone number e.g 08012345678" required autocomplete pattern="[0-9]{11}"/>
+                        </div>
+                        <div class="col-md-6 my-3 form-group">
+                            <label for="class" class="form-label">Previous Class</label>
+                            <input type="text" class="form-control" name="class" id="class" placeholder="Enter your previous class e.g JSS1" required autocomplete pattern="[A-Z]{3}[0-9]{1}"/>
+                        </div>
+                        <div class="col-12 my-3 form-group">
+                            <input type="checkbox" class="form-check-input" name="check" required id="check">
+                            <label for="check" class="form-label">By clicking this, it means you have read and agreed to our <a href="#">terms and condition</a></label>
+                        </div>
+                        <div class="row my-3 form-group w-100">
+                            <div class="form-group col-12 text-end">
+                                <button type="button" class="btn btn-danger" id="cancelBtn">CANCEL</button>
+                                <button type="submit" class="btn btn-primary" id="submitBtn">SUBMIT</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.2)">
+            <!-- Grid container -->
+            <div class="container pt-4">
+
+                <!-- Section: Social media -->
+                <section class="mb-4">
+
+                <!-- Facebook -->
+                    <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    target="_blank"
+                    href="https://www.facebook.com/itz-unbeatable"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><img src="img/facebook.svg" alt=""
+                    /></a>
+
+                <!-- Twitter -->
+                    <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    target="_blank"
+                    href="https://www.twitter.com/folorunsoprais1"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><img src="img/twitter.svg" alt=""
+                    /></a>
+
+                <!-- Google -->
+                    <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    target="_blank"
+                    href="https://www.google.com/mail/folorunsopraise580@gmail.com"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><img src="img/google.svg" alt=""
+                    /></a>
+
+                <!-- Instagram -->
+                    <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    target="_blank"
+                    href="https://www.instagram.com/praise_unbeatble"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><img src="img/instagram.svg" alt=""
+                    /></a>
+
+                <!-- Linkedin -->
+                    <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/praise-folorunso-291826242"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><img src="img/linkedin.svg" alt=""
+                    /></a>
+
+                <!-- Github -->
+                    <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    target="_blank"
+                    href="https://www.github.com/praisezee"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><img src="img/github.svg" alt=""
+                    /></a>
+                </section>
+            <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div
+            class="text-center text-dark p-3"
+            style="background-color: rgba(0, 0, 0, 0.2)"
+            >
+                © 2020 Copyright: JOSNIC INTERNATIONAL ACADEMY
+                <p class="text-dark">Proudly Designed by <a class="text-dark" href="#">APUS Industries</a></p>
+            </div>
+            <!-- Copyright -->
+        </footer>
