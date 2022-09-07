@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/payment.css">
+        <script defer src="js/main.js"></script>
+        <script defer src="js/bootstrap.js"></script>
+        <title>JOSNIC INTERNATIONAL ACADEMY</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="nav-center container-fluid w-100">
+                <!-- nav header -->
+                    <div class="nav-header">
+                        <a href="/index.html">
+                            <img src="img/logo.png" class="logo" alt="logo" style="width: 5rem; height: 5rem;"/>
+                        </a>
+                        <button class="nav-toggle">
+                            <img src="img/menu-button-wide.svg" alt="">
+                        </button>
+                    </div>
+                    <section class="d-lg-flex d-block d-none">
+                        <p class="h1 text-center text-danger" style="font-weight: 900; font-family: verdana, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">JOSNIC INTERNATIONAL ACADEMY</p>
+                    </section>
+                <!-- links -->
+                    <ul class=" links">
+                        <li class="nav-item my-2">
+                            <a href="/">home</a>
+                        </li>
+                        <li class="nav-item my-2">
+                            <a href="/about.html">about</a>
+                        </li>
+                        <li class="nav-item my-2">
+                            <a href="/contact.html">contact</a>
+                        </li>
+                        <li class="nav-item my-2">
+                            <a href="/enroll.html">Enroll</a>
+                        </li>
+                        <li class="nav-item my-2">
+                            <a class="text-center btn-primary text-white btn" id="remain" href="payment.html">Online Payment</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="my-5">
+            <p class="shadow h3 text-center text-primary" style="font-weight: 900;">WHAT WOULD YOU LIKE TO PAY FOR</p>
+            
+                    <article class="p-5 payment container justify-content-center align-items-center">
+                        <!-- Payment title -->
+                        <div class="payment-title">
+                            <p class="h5 px-2">Payment for registration form</p>
+                            <button class="btn dropdown px-2">
+                                <img src="img/arrow-down.svg" alt="">
+                            </button>
+                        </div>
+                        <!-- payment form -->
+                        <div class="payment-form text-center">
+                        <p class="text-start">The button below will redirect you to the enroll page to pay for your registration form and also enroll you to our institution</p>
+                        <button class="btn btn-primary" id="redirect">ENROLL</button>
+                        </div>
+                    </article>
+                    <article class="p-5 payment container justify-content-center align-items-center">
+                        <!-- Payment title -->
+                        <div class="payment-title">
+                            <p class="h5 px-2">Payment for School Fee</p>
+                            <button class="btn dropdown px-2">
+                                <img src="img/arrow-down.svg" alt="">
+                            </button>
+                        </div>
+                        <!-- payment form -->
+                        <div class="payment-form">
+                            <form id="schoolFee">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Full Name</label>
+                                    <input type="text" name="Full Name" id="name" class="form-control" required placeholder="Enter your fullname">
+                                </div>
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Full Name</label>
+                                    <select name="class" class="form-select" id="class">
+                                        <option value="" disabled selected>Select an option</option>
+                                        <option value="1">Nursery</option>
+                                        <option value="2">Primary</option>
+                                        <option value="3">Secondary</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="amount " class="form-label">Amount</label>
+                                    <input type="number" name="amount" id="amount" class="form-control" required disabled value="" placeholder="The price will be shown if you class is selected">
+                     <div class="form-group">
+
+                                    <label for="email" class="form-label">Email</label>
+
+                                    <input type="email" name="Email" id="email" class="form-control" required placeholder="Enter a valid email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="telephone" class="form-label">Phone Number</label>
+                                    <input type="tel" name="telephone" id="telephone" class="form-control" required placeholder="Enter a valid phonenumber">
+                                </div>
+                                <div class="my-3 text-center col-12">
+                                    <button type="submit" class="btn btn-primary payment-btn school-fee">Pay Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </article>
+                    <article class="p-5 payment container justify-content-center align-items-center">
+                        <!-- Payment title -->
+                        <div class="payment-title">
+                            <p class="h5 px-2">Payment for School Wears and Utilities</p>
+                            <button class="btn dropdown px-2">
+                                <img src="img/arrow-down.svg" alt="">
+                            </button>
+                        </div>
+                        <!-- payment form -->
+                        <div class="payment-form">
+                            <form id="wears">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Full Name</label>
+                                    <input type="text" name="Full Name" id="wearsName" class="form-control" required placeholder="Enter your fullname">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" name="Email" id="wearsEmail" class="form-control" required placeholder="Enter a valid email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="telephone" class="form-label">Phone Number</label>
+                                    <input type="tel" name="telephone" id="wearsTelephone" class="form-control" required placeholder="Enter a valid phonenumber">
+                                </div>
+                                <div class="my-3 text-center col-12">
+                                    <button type="submit" class="btn btn-primary payment-btn wears">Pay Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </article>
+                    <article class="p-5 payment container justify-content-center align-items-center">
+                        <!-- Payment title -->
+                        <div class="payment-title">
+                            <p class="h5 px-2">Donations</p>
+                            <button class="btn dropdown px-2">
+                                <img src="img/arrow-down.svg" alt="">
+                            </button>
+                        </div>
+                        <!-- payment form -->
+                        <div class="payment-form">
+                            <form id="donations">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Full Name</label>
+                                    <input type="text" name="Full Name" id="donatorName" class="form-control" required placeholder="Enter your fullname">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" name="Email" id="donatorEmail" class="form-control" required placeholder="Enter a valid email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="amount" class="form-label">Amount</label>
+                                    <input type="number" name="amount" id="donatorAmount" class="form-control" required placeholder="Enter the amount you want to donate">
+                                </div>
+                                <div class="form-group">
+                                    <label for="telephone" class="form-label">Phone Number</label>
+                                    <input type="tel" name="telephone" id="donatorTelephone" class="form-control" required placeholder="Enter a valid phonenumber">
+                                </div>
+                                <div class="my-3 text-center col-12">
+                                    <button type="submit" class="btn btn-primary donate payment-btn">Pay Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </article>
+        </main>
+        <footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.2)">
+            <!-- Grid container -->
+            <div class="container pt-4">
+
+                <!-- Section: Social media -->
+                <section class="mb-4">
+
+                <!-- Facebook -->
+                    <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    target="_blank"
+                    href="https://www.facebook.com/itz-unbeatable"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><img src="img/facebook.svg" alt=""
+                    /></a>
+
+                <!-- Twitter -->
+                    <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    target="_blank"
+                    href="https://www.twitter.com/folorunsoprais1"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><img src="img/twitter.svg" alt=""
+                    /></a>
+
+                <!-- Google -->
+                    <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    target="_blank"
+                    href="https://www.google.com/mail/folorunsopraise580@gmail.com"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><img src="img/google.svg" alt=""
+                    /></a>
+
+                <!-- Instagram -->
+                    <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    target="_blank"
+                    href="https://www.instagram.com/praise_unbeatble"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><img src="img/instagram.svg" alt=""
+                    /></a>
+
+                <!-- Linkedin -->
+                    <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/praise-folorunso-291826242"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><img src="img/linkedin.svg" alt=""
+                    /></a>
+
+                <!-- Github -->
+                    <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    target="_blank"
+                    href="https://www.github.com/praisezee"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><img src="img/github.svg" alt=""
+                    /></a>
+                </section>
+            <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div
+            class="text-center text-dark p-3"
+            style="background-color: rgba(0, 0, 0, 0.2)"
+            >
+                © 2020 Copyright: JOSNIC INTERNATIONAL ACADEMY
+                <p class="text-dark">Proudly Designed by <a class="text-dark" href="#">APUS Industries</a></p>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <script src="https://checkout.flutterwave.com/v3.js"></script>
+        <script src="js/payment.js"></script>
+    </body>
+</html>
